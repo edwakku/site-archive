@@ -1,0 +1,92 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    background-color: #353535;
+    min-height: 100vh;
+}
+
+th {
+    color: #d3d3d3;    
+}
+
+.homejumbo {
+    padding-top: 0.5em;
+    border-radius: 0;
+    background-image: url('../img/sitebannerhalf.png'), linear-gradient(#99c5ff,#8affd8);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+    background-size: 100%;
+    background-color: #000000;
+}
+.alert {
+    border-radius: 10px;
+    border-style: none;
+}
+.dicLogo {
+    width:10em;
+    height:10em;
+    float: left;
+}
+
+.gitLogo {
+    width:10em;
+    height: 10em;
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.homejumbo .contentt {
+    padding-top: 7em;
+    padding-bottom: 5em;
+    align-items: center;
+}
+
+#defineCard  {
+    background-color: #4e4e4e;
+    border-radius: 10px;
+    border-style: none;
+    float: left;
+}
+
+.dlModalBG {
+    background-image: url('../img/dlBG.svg');
+    background-repeat: no-repeat;
+    background-position-x: top;
+    background-position: center;
+    background-size: 100%;
+}
+
+.modal-body, .modal-content {
+    background-color: #2e2e2e;
+    border-radius: 10px;
+}
+
+.fas, .fab {
+    padding-right: 5px;
+}
+
+.btn {
+    border-radius: 10px;
+}
+
+
+#logo {
+    height: 13em;
+    width: auto;
+    align-content: center;
+}
+
+#infoSection {
+    padding-top: 6em;
+    padding-bottom: 4em;
+    background-color: #242424;
+}
+
+#opSrcSection {
+    background-color: #2e2e2e;
+    padding-top: 4em;
+    padding-bottom: 4em;
+}

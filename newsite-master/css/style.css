@@ -1,0 +1,47 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    background-color: #0c0c0c;
+}
+
+h1.gradient1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5em;
+}
+
+.gradient1 {
+    background: linear-gradient(217deg, #35ffcb, #35d8ff, #3575ff);
+    background-size: 500% 100%;        
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    -webkit-animation: gradient1 5s ease infinite;
+    -moz-animation: gradient1 5s ease infinite;
+    animation: gradient1 5s ease infinite;
+}
+
+.hovergradient:hover {
+    background: linear-gradient(217deg, #35ffcb, #35d8ff, #3575ff);
+    background-size: 500% 100%;        
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    -webkit-animation: gradient1 5s ease infinite;
+    -moz-animation: gradient1 5s ease infinite;
+    animation: gradient1 5s ease infinite;
+}
+
+@-webkit-keyframes gradient1 {
+    0%{background-position:87% 0%}
+    50%{background-position:14% 100%}
+    100%{background-position:87% 0%}
+}
+@-moz-keyframes gradient1 {
+    0%{background-position:87% 0%}
+    50%{background-position:14% 100%}
+    100%{background-position:87% 0%}
+}
+@keyframes gradient1 {
+    0%{background-position:87% 0%}
+    50%{background-position:14% 100%}
+    100%{background-position:87% 0%}
+}
